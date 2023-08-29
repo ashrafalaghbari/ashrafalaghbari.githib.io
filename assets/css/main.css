@@ -3441,7 +3441,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-			body.is-preload #intro:not(.hidden) + #header + #nav {
+			body.is-preload #intro:not(.hidden) + # + #nav {
 				-moz-transform: translateY(4rem);
 				-webkit-transform: translateY(4rem);
 				-ms-transform: translateY(4rem);
@@ -3460,7 +3460,7 @@ input, select, textarea {
 					display: none;
 				}
 
-				#intro + #header {
+				#intro + # {
 					margin-top: -14rem;
 				}
 
@@ -3501,7 +3501,7 @@ input, select, textarea {
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
-		margin-bottom: 70px;
+		margin-bottom: 40px;
 		align-items: center;
 		display: -moz-flex;
 		display: -webkit-flex;
