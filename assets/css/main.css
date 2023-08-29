@@ -3501,6 +3501,7 @@ input, select, textarea {
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
+		margin-bottom: 50px;
 		align-items: center;
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3522,7 +3523,7 @@ input, select, textarea {
 		height: 20rem;
 		padding-left: 5rem;
 		padding-right: 5rem;
-		padding-bottom: 18rem;
+		padding-bottom: 10rem;
 		position: relative;
 		text-align: center;
 		z-index: 2;
