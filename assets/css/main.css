@@ -3494,9 +3494,9 @@ input, select, textarea {
 
 	#header {
 		display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; /* New property to allow wrapping */
-    justify-content: space-between; /* Adjust as needed */
+		flex-direction: row;
+		flex-wrap: wrap; /* New property to allow wrapping */
+		justify-content: space-between; /* Adjust as needed */
 		color: #ffffff;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3565,7 +3565,7 @@ input, select, textarea {
 
 		#header .logo {
 			flex: 1 1 calc(33.333% - 10px);  /* Each logo takes up about 1/3 of the container's width, subtracting some for margin. */
-   		margin: 10px;  /* Adds spacing around each logo */
+   		        margin: 10px;  /* Adds spacing around each logo */
 			-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
 			-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
 			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
